@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+html, body{
+
+    margin: 0;
+    padding: 0;
+     width: 100vw;   
+     height: 100vh;
+     overflow: hidden !important;
+     box-sizing: border-box;
+     background-color: #201b2c;
+     font-family: 'Noto Sans', sans-serif;;
+
+}
+
+nav{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0px;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2f2841;
+    box-shadow: #00ff88;
+
+
+}
+
+
+nav>img{
+    width: 5vw;
+    margin: 0px 0px 0px 40px;
+}
+
+nav>h1{
+    letter-spacing: 2px;
+    color: #00ff88;
+
+}
+
+.bnt-login{
+    width: 8vw;
+    height: 5vh;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0px 40px;
+    padding: 0px;
+    border-radius: 15px;
+    background-color:#00ff88 ;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    outline: none;
+    transition: 1s;
+}
+
+.bnt-login:hover{
+    background-color:#00ff888a;
+}
+
+.bnt-login>a{
+text-decoration: none;
+}
+
+.sobre{
+    color:#d4d4d4;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.meio{
+    width: 100vw;
+    height: 80vh;
+    margin: 0;
+    padding: 0px 15px;
+    background-color: #201b2c;
+    display: flex;
+
+}
+
+.esquerda-home{
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card-home{
+    background-color: #2f2841;
+    border-radius: 10px;
+    width: 60%;
+    height: 45vh;
+    padding: 0px 15px;
+}
+.card-home>h1{
+    color: #00ff88;
+}
+.card-home>p{
+    color: #d4d4d4;
+}
+.direita-home{
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.direita-home>img{
+    width: 70%;
+   
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+.card-rodape{
+    height: 5vh;
+    width: 6vw;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#322640;
+    border-radius: 15px;
+    position: absolute;
+}
+.insta-link{
+    width: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tiktok-link{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 2.5vw;
+
+}
+
+.zapzap{
+    padding: 5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #24d464;
+    width: 16vw;
+    height: 5vh;
+    margin: 0px;
+    position: relative;
+    right: -43%;
+
+}
+
+
+.zap-icon{
+    width: 3vw;
+    margin: 0px;
+    position: relative;
+    right: 0%;
+}
+.zapzap>p{
+    color: white;
+    text-shadow: 0px 10px 40px #00ff8052;
+    margin: 0px;
+    position: relative;
+    right: 0%;
+    letter-spacing: 1px;
+
+}
